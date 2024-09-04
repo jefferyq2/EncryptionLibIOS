@@ -11,7 +11,7 @@
 		492D8C6B6111BB8355C8AC3D4714233E /* Pods-EncryptionLibIOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C519D4005BD2ACA568EE64F8BBFF8C4 /* Pods-EncryptionLibIOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C7D4D8A2D3141DCBB121E8FA90B2698 /* EncryptionLibIOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F43CCB04D6C7866BA863D722CF94ACA4 /* EncryptionLibIOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D462F91E253A551635575454AD09FCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		512EF277E1A1DB26A71F816EC85AC5D8 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B8D491E731C2EF0B78E267E6947FA8 /* ReplaceMe.swift */; };
+		512EF277E1A1DB26A71F816EC85AC5D8 /* Encryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B8D491E731C2EF0B78E267E6947FA8 /* Encryption.swift */; };
 		6878C99E0473ADCA39895F0AECD82188 /* Pods-EncryptionLibIOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFEB701907434E460AEF15D4756D3F6 /* Pods-EncryptionLibIOS_Tests-dummy.m */; };
 		7E2793C4EBEC302C05598FFD984142AD /* Pods-EncryptionLibIOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FDA4D3E56A2E6056ED14D647CF6554 /* Pods-EncryptionLibIOS_Example-dummy.m */; };
 		842E4A37757578859C097B253502DF99 /* Pods-EncryptionLibIOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D056CF3BF0F9AAA5BCF0A5574C5BE08A /* Pods-EncryptionLibIOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -57,7 +57,7 @@
 		82646CA1BF536C4B6F64398960090FBD /* Pods-EncryptionLibIOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EncryptionLibIOS_Tests.modulemap"; sourceTree = "<group>"; };
 		86F03F0477EE19F5ADADE32BB6C59CB6 /* Pods-EncryptionLibIOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EncryptionLibIOS_Example.modulemap"; sourceTree = "<group>"; };
 		92A1A25521C3BBFCD56098F9CC14CF7B /* EncryptionLibIOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EncryptionLibIOS-prefix.pch"; sourceTree = "<group>"; };
-		92B8D491E731C2EF0B78E267E6947FA8 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = EncryptionLibIOS/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		92B8D491E731C2EF0B78E267E6947FA8 /* Encryption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Encryption.swift; path = EncryptionLibIOS/Classes/Encryption.swift; sourceTree = "<group>"; };
 		9784979670D7D4A9CCF922079970671B /* EncryptionLibIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EncryptionLibIOS.debug.xcconfig; sourceTree = "<group>"; };
 		999C8AED246F7CBEACC37BCD58EEAB8A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9C9E8FDDF23A15059B6974F7815E9190 /* EncryptionLibIOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EncryptionLibIOS-dummy.m"; sourceTree = "<group>"; };
@@ -205,7 +205,7 @@
 		DA4215A8BC2E6706787560CD5F9BDBAD /* EncryptionLibIOS */ = {
 			isa = PBXGroup;
 			children = (
-				92B8D491E731C2EF0B78E267E6947FA8 /* ReplaceMe.swift */,
+				92B8D491E731C2EF0B78E267E6947FA8 /* Encryption.swift */,
 				73DB05CAA4AF1FE60C0E3388BE254885 /* Pod */,
 				9E38BF1A1D3702CC5A275813DAD092E6 /* Support Files */,
 			);
@@ -376,7 +376,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CB9D6780698B3ACEC3A84418C943AD6 /* EncryptionLibIOS-dummy.m in Sources */,
-				512EF277E1A1DB26A71F816EC85AC5D8 /* ReplaceMe.swift in Sources */,
+				512EF277E1A1DB26A71F816EC85AC5D8 /* Encryption.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
