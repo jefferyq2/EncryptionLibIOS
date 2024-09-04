@@ -1,7 +1,7 @@
 import Foundation
 import CommonCrypto
 
-@ExportObjCClass
+@ObjCName("Encryption:")
 public class Encryption {
     
     public init() {}
