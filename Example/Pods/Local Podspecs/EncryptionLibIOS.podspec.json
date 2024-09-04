@@ -1,0 +1,22 @@
+{
+  "name": "EncryptionLibIOS",
+  "version": "0.1.0",
+  "summary": "A short description of EncryptionLibIOS.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/estreteca/EncryptionLibIOS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "estreteca": "javier.alejandro@estrateca.com"
+  },
+  "source": {
+    "git": "https://github.com/estreteca/EncryptionLibIOS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "EncryptionLibIOS/Classes/**/*"
+}

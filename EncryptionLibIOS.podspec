@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EncryptionLibIOS'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of EncryptionLibIOS.'
+  s.version          = '1.0.0'
+  s.summary          = 'SDK de encriptacion de boletos electronicos de SuperBoletos'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'SDK dedicado a la encriptacion de boletos electronicos mediante un token asignado a un boleto'
 
   s.homepage         = 'https://github.com/estreteca/EncryptionLibIOS'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -39,4 +37,5 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+    s.swift_versions = ['5.0', '5.1', '5.2', '5.3', '5.4', '5.5', '5.6', '5.7', '5.8', '5.9', '5.10']
 end

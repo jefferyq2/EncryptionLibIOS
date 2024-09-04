@@ -1,0 +1,16 @@
+PODS:
+  - EncryptionLibIOS (0.1.0)
+
+DEPENDENCIES:
+  - EncryptionLibIOS (from `../`)
+
+EXTERNAL SOURCES:
+  EncryptionLibIOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EncryptionLibIOS: 8f91c99f89fd4d7b8cc18e404975397365848293
+
+PODFILE CHECKSUM: 637b457ad6b32aec1f714433d3fd6a02d7d9be51
+
+COCOAPODS: 1.15.2
