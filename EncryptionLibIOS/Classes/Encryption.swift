@@ -1,11 +1,13 @@
 import Foundation
 import CommonCrypto
 
+@ExportObjCClass
 public class Encryption {
     
     public init() {}
     private let client = URLSession.shared
     
+    @ObjCName("timeBasedEncrypt:")
     public func timeBasedEncrypt(document: String, url: String, secret: String, version: String, completion: @escaping (Result<(String, TimeInterval), Error>) -> Void) {
         let hashFromDocument = getHashSHA(message: document)
         let savedHash = getFromSharedPreferences(key: "hash")
