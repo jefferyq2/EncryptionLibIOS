@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'EncryptionLibIOS_Example' do
+  pod 'EncryptionLibIOS', :path => '../'
+
+  target 'EncryptionLibIOS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
